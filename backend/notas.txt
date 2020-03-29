@@ -1,0 +1,41 @@
+/**
+ *  Métodos HTTP:
+ * 
+ * GET: Buscar/Listar uma informação do back-end
+ * POST: Criar uma
+ * PUT: Alterar uma
+ * DELETE: Deletar uma
+ * 
+ */
+
+ /**
+  *  Tipos de parâmetros:
+  * 
+  * Query Params: Parametros nomeados e enviados na rota após "?" (Filtros, paginação)
+  * "&" anexar filtro
+  * 
+  * Route Params: Utilizados para identificar recursos
+  * Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
+  * 
+  */
+
+  /**
+   * 
+   * SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL
+   * NoSQL: MongoDB, CouchDC, etc
+   * 
+   * Usar o SQL, no caso o banco SQLite. O SQL tem melhor estrutura
+   */
+
+   /**
+    * Driver: SELECT * FROM users
+    * Query Builder: table('users), select("*").where()
+    * 
+    * Query builder é melhor pois mantem o formato facilitando mudança entre serviços SQL (Oracle, SQLite etc)
+    * 
+    */
+
+    /** 
+    *    migrations: forma de criar tabelas e manter um historico das mesmas (alterações, etc) como controle de versão do BD
+    *    
+    */
